@@ -34,21 +34,25 @@ Understanding the dynamics of the used bike market can help identify key trends,
 * **Premium brands (Harley, KTM, Honda)** command higher prices.
 * **Economy brands (Hero, Bajaj, TVS)** have tighter price ranges.
 * ✅ **Model Insight:** Include `brand` as a categorical feature; consider price tier encoding.
+![Price_Distribution_by_Top10_Brands](Assets/Price_Distribution_by_Top10_Brands.png)
 
 ### 2. Price vs Power
 
 * Clear **positive correlation**: more power (bhp) means higher price.
 * ✅ **Model Insight:** `power_clean` is a strong numeric predictor.
+![Price_vs_Power](Assets/Price_vs_Power.png)
 
 ### 3. Price vs Bike Age
 
 * **Negative trend**: bikes depreciate rapidly in the first 5–8 years.
 * ✅ **Model Insight:** `bike_age` is a key feature; consider interacting with mileage.
+![Price_vs_Bike_Age](Assets/Price_vs_Bike_Age.png)
 
 ### 4. Price by Location
 
 * Cities like **Mumbai, Pune, Bengaluru** show higher average prices.
 * ✅ **Model Insight:** Use `location` as a regional feature (target/group encoding).
+![Average_Price_by_Top10_Locations](Assets/Average_Price_by_Top10_Locations.png)
 
 ---
 
